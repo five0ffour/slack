@@ -1,0 +1,32 @@
+/* Fonts */
+@font-face { font-family: 'Cherry Soda'; src: url('../fonts/CherrySoda.ttf'); } 
+
+body {
+  background-color: #ffe082;
+  background-image: url('../images/ricepaper_v3.png');
+  color: blue;
+}
+
+.slackmsg-lst,
+.slackmsgform {
+  background-color: white    ;
+  color: black;
+  padding: 12px !important;
+}
+
+h1, h2, h3, h4, h5, p {
+  font-family: 'Cherry Soda', sans-serif; 
+  color : darkblue;
+}
+
+td {
+  font-family: 'Cherry Soda', sans-serif; 
+}
+
+#title-hdr {
+  font-size:3vw;
+}
+
+#subtitle-hdr {
+  font-size:1.5vw;
+}
