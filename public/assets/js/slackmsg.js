@@ -16,7 +16,7 @@ $(function () {
             message: msg,
         }
 
-        // Post to slack and then store it in the database
+        // Post message to the database and then slack it out
         // Currently the url hard codes to "Galarneau - Random" channel 
         var url = "https://hooks.slack.com/services/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";
         var ajaxDBCall = $.ajax({
